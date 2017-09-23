@@ -1,0 +1,22 @@
+{
+	"name": "gegewv/frame",
+    "description": "A framework for yourself",
+    "authors": [
+        {
+            "name": "Gege Wv",
+            "email": "lllalbertwulll@gmail.com"
+        }
+    ],
+  "require": {
+	  "noahbuscher/macaw": "dev-master",
+    "illuminate/database": "*",
+    "filp/whoops": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models",
+      "services"
+    ]
+  }
+}
